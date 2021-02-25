@@ -21,13 +21,15 @@
 
     left: 0%;
     display: block;
-    background-color: #007a79;
+    background-color: #00413f;
     color: #c7cedf;
-    max-width: 210px;
+    text-align: center;
     padding: 10px;
     font-size: 45px;
     font-family: Rounded2;
     text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -37,7 +39,7 @@
     display: block;
     background-color: #007a79;
     color: #c7cedf;
-    max-width: 260px;
+    max-width: 200px;
     padding: 10px;
     font-size: 35px;
     font-family: Rounded2;
