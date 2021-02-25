@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Rounded';
+    src: url('/Fonts/maagkramp.ttf');
+}
+/*
+base-color: #0f1123
+base-background-color: #c7cedf
+nav-background-color: #002a29
+select-color: #007a79
+#976f4f
+#4d2a16
+*/
+body{
+
+    background-color: #c7cedf;
+
+}
+.navbar{
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #002a29;
+
+}
+.nav{
+
+width: 100%;
+position: relative;
+margin-left: 15%;
+
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: flex-start;
+align-items: center;
+
+}
+.nav-item{
+
+    text-decoration: none;
+    color: #c7cedf;
+    
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Rounded;
+    
+}
+
+.nav-item:hover{
+
+
+    background-color: #007a79;
+    border-radius: 5px;
+
+}
+
+.nav-icon{
+
+ align-self: flex-end;
+
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #002a29;
+
+}
+
+.copy{
+
+    color: #c7cedf;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Rounded;
+
+}
+
+#Facebook{
+
+    color: #4267B2;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    margin: 25px;
+
+}
+
+#Instagram{
+
+    color: #fff;
+    background-image: linear-gradient(to bottom, #405DE6,#5851DB,#833AB4,#C13584,#E1306C,#FD1D1D,#F56040,#F77737,#FCAF45,#FFDC80);
+    border-radius: 20px;
+    width: 48px;
+    height: 48px;
+    margin: 25px;
+
+}
+
+#GitHub .footer-icon{
+
+    color: #fff;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    margin: 25px;
+
+}
+
+#Twitter{
+
+    color: #1DA1F2;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    margin: 25px;
+
+}
+
+#LinkedIn{
+
+    color: #2867B2;
+    border-radius: 30px;
+    width: 48px;
+    height: 48px;
+    margin: 25px;
+
+}
