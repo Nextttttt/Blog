@@ -1,11 +1,19 @@
 @font-face {
     font-family: 'Rounded';
     src: url('/Fonts/maagkramp.ttf');
+    
 }
+@font-face {
+
+font-family: 'Rounded2';
+    src: url('/Fonts/Odin\ Rounded\ -\ Light.otf');
+
+}
+
 /*
 base-color: #0f1123
 base-background-color: #c7cedf
-nav-background-color: #002a29
+nav-background-color: #00413f
 select-color: #007a79
 #976f4f
 #4d2a16
@@ -21,7 +29,8 @@ body{
     top: 0%;
     left: 0%;
     right: 0%;
-    background-color: #002a29;
+    background-color: #00413f;
+    z-index: 1000;
 
 }
 .nav{
@@ -47,6 +56,9 @@ align-items: center;
     font-size: 25px;
     text-transform: uppercase;
     font-family: Rounded;
+    overflow: hidden;
+    z-index: 10;
+    transition: 1s all ease;
     
 }
 
@@ -64,18 +76,127 @@ align-items: center;
 
 }
 
+.main{
+
+    position: relative;
+    top: 60px;
+    background-color: #b1b7c5;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding-bottom: 30px;
+
+}
+
+.section{
+
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b1b7c5;
+
+}
+
+#Welcome{
+
+    border-bottom: 3px solid #000;
+
+}
+
+#Personal-Information{
+
+    border-bottom: 3px solid #000;
+
+}
+
+.btn-primary{
+
+    display: inline-block;
+    border: 0;
+    padding: 5px 10px;
+    margin: 6px;
+    background-color: #4d2a16;
+    border-radius: 10px;
+
+}
+
+
+
+.btn-link{
+
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    margin-right: 8px;
+    padding: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 50px;
+    overflow: hidden;
+    
+  }
+
+  .btn-fill{
+
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+
+  }
+
+  .btn-fill:hover{
+
+    box-shadow: 0 0 40px 40px #00413f inset;
+    color: #c7cedf;
+
+  }
+
+#Soft-container{
+
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#Soft-container .list-m{
+
+    cursor: default;
+    position: relative;
+    background-color: #c7cedf;
+    max-width: 200px;
+    border: 5px solid #00413f;
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+#Soft-container .list-m:hover{
+
+    bottom: 15px;
+    box-shadow: 5px 10px 8px 10px rgb(93, 93, 93);
+
+}
+
+/*============================================footer=========================================================*/
 .footer{
 
+    margin-top: 60px;
+    position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content:center;
     align-items: center;
     position: absolute;
-    bottom: 0%;
     left: 0%;
     right: 0%;
-    background-color: #002a29;
+    background-color: #00413f;
 
 }
 

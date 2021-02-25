@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'Rounded2';
+    src: url('/Fonts/Odin\ Rounded\ -\ Light.otf');
+}
 .paragraph-l{
 
- font-size: 25px;
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: justify;
+    font-family: Rounded2;
 
 }
 
@@ -12,13 +19,29 @@
 
 .heading-l{
 
-    font-size: 35px;
+    left: 0%;
+    display: block;
+    background-color: #007a79;
+    color: #c7cedf;
+    max-width: 210px;
+    padding: 10px;
+    font-size: 45px;
+    font-family: Rounded2;
+    text-transform: uppercase;
 
 }
 
 .heading-m{
 
-    font-size: 30px;
+    left: 0%;
+    display: block;
+    background-color: #007a79;
+    color: #c7cedf;
+    max-width: 260px;
+    padding: 10px;
+    font-size: 35px;
+    font-family: Rounded2;
+    margin-bottom: 5px;
     
 }
 
@@ -33,9 +56,30 @@
     font-size: 20px;
     
 }
+.list-l{
 
-.text-list{
+    list-style-type: none;
+    font-size: 35px;
+    text-align: justify;
+    font-family: Rounded2;
 
-    font-size: 25px;
-    
+}
+.list-m{
+
+    list-style-type: none;
+    font-size:30px;
+    text-align: justify;
+    font-family: Rounded2;
+
+}
+
+.important-text-h{
+
+    color: #a00000;
+
+}
+.important-text-m{
+
+    color: #07304b;
+
 }
